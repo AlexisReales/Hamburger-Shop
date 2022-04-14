@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+header{
+    background-color: cornflowerblue;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+header > h2{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: rgb(105, 105, 245);
+    font-family: monospace;
+    padding: 30px;
+}
+
+footer > ul{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.container{
+    font-family: monospace;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 18px;
+    width: 60%;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.div-produtos{
+    margin-top: 18px;
+    display: grid;
+}
+
+.div-produtos > label{
+    margin-bottom: 8px;
+}
